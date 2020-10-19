@@ -2,3 +2,22 @@
     color: red;
     /* background: url('./dog.jpg'); */
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container > * {
+    margin: 10px auto;
+}
+
+.container img {
+    width: 100px;
+    height: auto;
+}
+
+.container button {
+    display: inline-block;
+    width: 100px;
+}

@@ -5,6 +5,7 @@ import printMe from './print.js';
 
 function component() {
     const element = document.createElement('div');
+    element.classList.add('container');
 
     // lodash included
     element.innerHTML = _.join(['Hello', 'Guys'], ' ');
